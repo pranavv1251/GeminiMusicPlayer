@@ -18,7 +18,7 @@ struct ShuffleButton: View {
                 vm.toggleShuffle()
             }
         } label: {
-            Image(systemName: "shuffle")
+            Image(systemName: "repeat")
                 .font(font)
                 .foregroundStyle(vm.shuffleOn ? .newPrimary : .green)
         }
